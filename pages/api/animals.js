@@ -9,7 +9,7 @@ const animals = (req,res) => {
     ]
 
     const random = animals[Math.floor(Math.random() * animals.length)]
-    res.status(200).send({random})
+    res.status(200).json({random})
 }
 
 export default animals
