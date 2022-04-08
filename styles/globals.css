@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+p {
+    color: chartreuse;
+}
+
+body {
+  background-color: hotpink;
+}
